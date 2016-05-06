@@ -22,7 +22,7 @@
 				}
 			cout << endl;
 		}
-
+/////
 
 		// llenado del tablero
 		for (int i =0 ; i <4 ;i++){
@@ -47,6 +47,7 @@
 					int f=0;
 					int c=0;
 						for(int j=0 ; j <4;j++){
+						
 							if (selecionar[j] ==  pieza[i][j]){
 								t= t +1;
 								if(t==4){
@@ -56,7 +57,7 @@
 									pieza[i][1]= '9';
 									pieza[i][2]= '9';
 									pieza[i][3]= '9';
-									
+
 									t=0;
 								}
 							}
@@ -157,7 +158,7 @@
 
 			jug =2;
 
-						for (int i = 0; i < filas; ++i){
+			for (int i = 0; i < filas; ++i){
 				for (int j = 0; j < columnas; ++j){
 					cout<< pieza[i][j]<<",";
 				}
