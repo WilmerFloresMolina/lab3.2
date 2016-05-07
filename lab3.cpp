@@ -50,6 +50,7 @@
 						
 							if (selecionar[j] ==  pieza[i][j]){
 								t= t +1;
+								cout << t<< endl;
 								if(t==4){
 									f=i;
 									c=j;
@@ -57,10 +58,16 @@
 									pieza[i][1]= '9';
 									pieza[i][2]= '9';
 									pieza[i][3]= '9';
-
-									t=0;
+									break;
+									
 								}
 							}
+							if(t==4){
+								break;
+							}
+						}
+						if(t==4){
+								break;
 						}
 
 					
@@ -117,9 +124,20 @@
 									pieza[i][1]= '9';
 									pieza[i][2]= '9';
 									pieza[i][3]= '9';
+									break;
 
 								}
+							if(t==4){
+								break;
 							}
+							}
+							if(t==4){
+								break;
+						}
+						}
+
+						if(t==4){
+								break;
 						}
 
 					
